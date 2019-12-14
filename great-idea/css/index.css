@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 850px;
+	margin: 0 auto;
+}
+.topHeader{
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+	justify-content: flex-end;
+}
+.navigation {
+	margin-top: 2%;
+}
+.navigation a {
+	color: grey;
+	padding-right: 80px;
+	margin-top: 2%;
+	text-decoration: none;
+}
+h1 {
+	font-size: 25px;
+}
+.boxes {
+	display: flex;
+}
+.leftContent div {
+	border: 1px solid black;
+	margin: 4%;
+	padding: 2%;
+	background-color: blanchedalmond;
+	display: flex;
+	flex-direction: column;
+}
+
+.rightContent div {
+	border: 1px solid black;
+	margin: 4%;
+	padding: 2%;
+	background-color: blanchedalmond;
+	display: flex;
+	flex-direction: column;	
+}
+button {
+	background-color: grey;
+	background-size: 10px;
+	border: 1px solid black;
+	color: black;
+	padding: 5px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.footer1 {
+	display: flex;
+}
+h2 {
+	font-size: 20px;
+}
+.hr2 {
+	border: 1px solid black;
+
+}
+
+small {
+	display: inline-block;
+	margin-left: 40%;
+	margin-bottom: 3%;
+}
+
+
+/** index.html**/
+
+.header1  {
+	display: flex;
+}
+.navigation  {
+	display: flex;
+}
+.header1 div {
+	display: inline-block;
+	width: 45%;
+	margin: 2%;
+}
+
+.header2 div {
+	display: inline-block;
+	width: 45%;
+	margin-left: 2%;
+}
+.header2 h1 {
+	font-size: 70px;
+	padding-bottom: 20%;
+}
+.button1 {
+	margin-left: 40%;
+}
+.section1 div {
+	display: inline-block;
+	width: 45%;
+}
+.section2 div {
+	display: inline-block;
+	width: 33%;
+	
+}
